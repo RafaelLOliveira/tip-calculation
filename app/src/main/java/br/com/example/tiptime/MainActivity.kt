@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun calculateTip() {
         //take the typed number
-        val stringInTextField = binding.costOfService.text.toString()
+        val stringInTextField = binding.costOfServiceEditText.text.toString()
         val cost = stringInTextField.toDouble()
 
         //inicialize the selected radio button
